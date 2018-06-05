@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Implementation-Title: scrabble
+Implementation-Version: 0.0.1-SNAPSHOT
+Built-By: kssuc
+Implementation-Vendor-Id: com.example
+Build-Jdk: 1.8.0_171
+Implementation-URL: https://projects.spring.io/spring-boot/#/spring-bo
+ ot-starter-parent/scrabble
+Created-By: Maven Integration for Eclipse
+
