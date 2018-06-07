@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="0" total="6" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="1071" started-at="2018-06-07T22:38:48Z" finished-at="2018-06-07T22:38:49Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="1071" started-at="2018-06-07T22:38:48Z" finished-at="2018-06-07T22:38:49Z">
+      <class name="com.example.scrabble.service.ScrabbleGameServiceTest">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.example.scrabble.service.ScrabbleGameServiceTest@4fe44c]" name="beforeMethod" is-config="true" duration-ms="904" started-at="2018-06-07T22:38:48Z" finished-at="2018-06-07T22:38:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="getGamesList()[pri:0, instance:com.example.scrabble.service.ScrabbleGameServiceTest@4fe44c]" name="getGamesList" duration-ms="39" started-at="2018-06-07T22:38:49Z" finished-at="2018-06-07T22:38:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getGamesList -->
+        <test-method status="FAIL" signature="getMatchHistory()[pri:0, instance:com.example.scrabble.service.ScrabbleGameServiceTest@4fe44c]" name="getMatchHistory" duration-ms="1" started-at="2018-06-07T22:38:49Z" finished-at="2018-06-07T22:38:49Z">
+          <exception class="java.lang.RuntimeException">
+            <message>
+              <![CDATA[Test not implemented]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.RuntimeException: Test not implemented
+at com.example.scrabble.service.ScrabbleGameServiceTest.getMatchHistory(ScrabbleGameServiceTest.java:76)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.RuntimeException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getMatchHistory -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.example.scrabble.service.ScrabbleGameServiceTest@4fe44c]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2018-06-07T22:38:49Z" finished-at="2018-06-07T22:38:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.example.scrabble.service.ScrabbleGameServiceTest@4fe44c]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2018-06-07T22:38:49Z" finished-at="2018-06-07T22:38:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="testCreate()[pri:0, instance:com.example.scrabble.service.ScrabbleGameServiceTest@4fe44c]" name="testCreate" duration-ms="2" started-at="2018-06-07T22:38:49Z" finished-at="2018-06-07T22:38:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreate -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.example.scrabble.service.ScrabbleGameServiceTest@4fe44c]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2018-06-07T22:38:49Z" finished-at="2018-06-07T22:38:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="testGetGameBoard()[pri:0, instance:com.example.scrabble.service.ScrabbleGameServiceTest@4fe44c]" name="testGetGameBoard" duration-ms="24" started-at="2018-06-07T22:38:49Z" finished-at="2018-06-07T22:38:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetGameBoard -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.example.scrabble.service.ScrabbleGameServiceTest@4fe44c]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2018-06-07T22:38:49Z" finished-at="2018-06-07T22:38:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="testPlayAWordDown()[pri:0, instance:com.example.scrabble.service.ScrabbleGameServiceTest@4fe44c]" name="testPlayAWordDown" duration-ms="4" started-at="2018-06-07T22:38:49Z" finished-at="2018-06-07T22:38:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPlayAWordDown -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.example.scrabble.service.ScrabbleGameServiceTest@4fe44c]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2018-06-07T22:38:49Z" finished-at="2018-06-07T22:38:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="testPlayAWordinWrongDirection()[pri:0, instance:com.example.scrabble.service.ScrabbleGameServiceTest@4fe44c]" name="testPlayAWordinWrongDirection" duration-ms="1" started-at="2018-06-07T22:38:49Z" finished-at="2018-06-07T22:38:49Z">
+          <exception class="com.example.scrabble.exceptions.ScrabbleGameException">
+            <message>
+              <![CDATA[Invalid direction]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[com.example.scrabble.exceptions.ScrabbleGameException: Invalid direction
+at com.example.scrabble.service.ScrabbleGameService.playAWord(ScrabbleGameService.java:221)
+at com.example.scrabble.service.ScrabbleGameServiceTest.testPlayAWordinWrongDirection(ScrabbleGameServiceTest.java:111)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- com.example.scrabble.exceptions.ScrabbleGameException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPlayAWordinWrongDirection -->
+      </class> <!-- com.example.scrabble.service.ScrabbleGameServiceTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

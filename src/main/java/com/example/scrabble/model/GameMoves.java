@@ -9,10 +9,28 @@ public class GameMoves {
 	@GeneratedValue(strategy = GenerationType.AUTO)
 	private long id;
 	private String playerId;
-	private Long gameId;
+	//private Long gameId;
+	@ManyToOne
+    @JoinColumn(name = "game_id", nullable = false)
+    private Game game;
 	private Long moveId;
 	private String word;
+	private String startingCoOrdinates;
+	private String direction;
 	private int pointsScored;
+	
+	public String getStartingCoOrdinates() {
+		return startingCoOrdinates;
+	}
+	public void setStartingCoOrdinates(String startingCoOrdinates) {
+		this.startingCoOrdinates = startingCoOrdinates;
+	}
+	public String getDirection() {
+		return direction;
+	}
+	public void setDirection(String direction) {
+		this.direction = direction;
+	}
 	
 	public long getId() {
 		return id;
@@ -26,11 +44,12 @@ public class GameMoves {
 	public void setPlayerId(String playerId) {
 		this.playerId = playerId;
 	}
-	public Long getGameId() {
-		return gameId;
+	
+	public Game getGame() {
+		return game;
 	}
-	public void setGameId(Long gameId) {
-		this.gameId = gameId;
+	public void setGame(Game game) {
+		this.game = game;
 	}
 	public Long getMoveId() {
 		return moveId;

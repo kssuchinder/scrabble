@@ -12,7 +12,9 @@ public class BoardSquare {
 	private int column;
 	private int value;
 	private String playerId;
-	private Long gameId;
+	@ManyToOne
+    @JoinColumn(name = "game_id", nullable = false)
+    private Game game;
 	private Long moveId;
 	
 	public long getId() {
@@ -51,11 +53,11 @@ public class BoardSquare {
 	public void setPlayerId(String playerId) {
 		this.playerId = playerId;
 	}
-	public Long getGameId() {
-		return gameId;
+	public Game getGame() {
+		return game;
 	}
-	public void setGameId(Long gameId) {
-		this.gameId = gameId;
+	public void setGame(Game game) {
+		this.game = game;
 	}
 	
 	

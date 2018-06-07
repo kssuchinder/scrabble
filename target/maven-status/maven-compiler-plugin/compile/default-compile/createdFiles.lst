@@ -1,0 +1,15 @@
+com\example\scrabble\dto\GameMovesDTO.class
+com\example\scrabble\exceptions\handler\ScrabbleExceptionHandler.class
+com\example\scrabble\exceptions\ScrabbleGameException.class
+com\example\scrabble\model\BoardSquare.class
+com\example\scrabble\config\SwaggerConfig.class
+com\example\scrabble\model\GameMoves.class
+com\example\scrabble\request\GameDetails.class
+com\example\scrabble\repository\GameRespository.class
+com\example\scrabble\repository\BoardRepository.class
+com\example\scrabble\request\PlayWord.class
+com\example\scrabble\controller\ScrabbleGameController.class
+com\example\scrabble\ScrabbleApplication.class
+com\example\scrabble\repository\MoveRepository.class
+com\example\scrabble\service\ScrabbleGameService.class
+com\example\scrabble\model\Game.class

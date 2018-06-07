@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite hostname="DESKTOP-0JUEEOV" name="com.example.scrabble.service.ScrabbleGameServiceTest" tests="5" failures="0" timestamp="6 Jun 2018 23:49:15 GMT" time="0.518" errors="0">
+  <testcase name="getGamesList" time="0.0" classname="com.example.scrabble.service.ScrabbleGameServiceTest"/>
+  <testcase name="getMatchHistory" time="0.0" classname="com.example.scrabble.service.ScrabbleGameServiceTest"/>
+  <testcase name="playAWord" time="0.0" classname="com.example.scrabble.service.ScrabbleGameServiceTest"/>
+  <testcase name="testCreate" time="0.014" classname="com.example.scrabble.service.ScrabbleGameServiceTest"/>
+  <testcase name="testGetGameBoard" time="0.0" classname="com.example.scrabble.service.ScrabbleGameServiceTest"/>
+</testsuite>

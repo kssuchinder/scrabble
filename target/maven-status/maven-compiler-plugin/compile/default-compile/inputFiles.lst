@@ -1,0 +1,15 @@
+C:\work\ClearCorrect\updated\scrabble\src\main\java\com\example\scrabble\service\ScrabbleGameService.java
+C:\work\ClearCorrect\updated\scrabble\src\main\java\com\example\scrabble\repository\BoardRepository.java
+C:\work\ClearCorrect\updated\scrabble\src\main\java\com\example\scrabble\repository\GameRespository.java
+C:\work\ClearCorrect\updated\scrabble\src\main\java\com\example\scrabble\model\GameMoves.java
+C:\work\ClearCorrect\updated\scrabble\src\main\java\com\example\scrabble\exceptions\ScrabbleGameException.java
+C:\work\ClearCorrect\updated\scrabble\src\main\java\com\example\scrabble\controller\ScrabbleGameController.java
+C:\work\ClearCorrect\updated\scrabble\src\main\java\com\example\scrabble\dto\GameMovesDTO.java
+C:\work\ClearCorrect\updated\scrabble\src\main\java\com\example\scrabble\request\GameDetails.java
+C:\work\ClearCorrect\updated\scrabble\src\main\java\com\example\scrabble\ScrabbleApplication.java
+C:\work\ClearCorrect\updated\scrabble\src\main\java\com\example\scrabble\model\BoardSquare.java
+C:\work\ClearCorrect\updated\scrabble\src\main\java\com\example\scrabble\repository\MoveRepository.java
+C:\work\ClearCorrect\updated\scrabble\src\main\java\com\example\scrabble\model\Game.java
+C:\work\ClearCorrect\updated\scrabble\src\main\java\com\example\scrabble\exceptions\handler\ScrabbleExceptionHandler.java
+C:\work\ClearCorrect\updated\scrabble\src\main\java\com\example\scrabble\config\SwaggerConfig.java
+C:\work\ClearCorrect\updated\scrabble\src\main\java\com\example\scrabble\request\PlayWord.java

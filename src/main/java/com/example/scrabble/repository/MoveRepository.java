@@ -11,7 +11,7 @@ import com.example.scrabble.model.GameMoves;
 
 public interface MoveRepository extends JpaRepository<GameMoves, Long>  {
 
-	@Query("SELECT g FROM GameMoves g where g.gameId = :gameId order by moveId ") 
-    public List<GameMoves> findGameMoves(@Param("gameId") Long gameId);
+	@Query("SELECT g FROM GameMoves g where g.game = :gameId order by moveId ") 
+    public List<GameMoves> findGameMoves(@Param("gameId") Game gameId);
 	
 }
