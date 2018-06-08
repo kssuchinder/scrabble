@@ -247,6 +247,8 @@ public class ScrabbleGameService {
 	}
 
 	/**
+	 * This method inserts the record into game_moves table.
+	 * This table stores all the successful moves made by the players in a game 
 	 * @param playWord
 	 * @param nextMoveId
 	 * @param game
